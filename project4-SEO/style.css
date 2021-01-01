@@ -833,7 +833,7 @@ h1, h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/imgCompression/image-de-presentation-ps-min.jpg");
 }
 
 @media (max-width: 1024px) {
