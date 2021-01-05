@@ -4849,6 +4849,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     padding: 10px 25px;
     color: #fff!important;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .nav>li>a:focus,
