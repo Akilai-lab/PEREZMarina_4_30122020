@@ -1407,7 +1407,8 @@ textarea {
 
 a {
     color: #337ab7;
-    text-decoration: none
+    text-decoration: none; 
+    
 }
 
 a:focus,
@@ -4838,13 +4839,16 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav>li {
     position: relative;
-    display: block
+    display: block;
+    margin: 0 10px
 }
 
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 25px;
+    color: #fff!important;
+    font-weight: bold;
 }
 
 .nav>li>a:focus,
@@ -5288,7 +5292,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
     }
     .navbar-nav>li>a {
         padding-top: 15px;
-        padding-bottom: 15px
+        padding-bottom: 15px;
+        border: 1px solid #F3976C;
+        border-radius: 25px;
+        background-color: #F3976C;
     }
 }
 
