@@ -11,6 +11,7 @@
     <link rel="canonical" href="https://akilai-lab.github.io/PEREZMarina_4_30122020/project4-SEO/index.html" />
     
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    
     <link rel="preload" href="style.css" as="style">
 	<link rel="stylesheet" type="text/css" href="style.css">
     
@@ -25,7 +26,9 @@
     
     <link href="fonts/fontawesome-webfont.woff2" async>
     <link rel=preload href="fonts/et-line.woff" as="font" async>
-	<script src="./js/jquery-2.1.0.js" async></script>
+    <link href="fonts/et-line.woff" crossorigin="anonymous">
+    
+	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
@@ -57,21 +60,20 @@
 				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
 				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<button id="nav-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
-					</li>
-				</ul>
+                <div class="collapse navbar-collapse navbar-1"  aria-expanded="false" style="height: 1px;">
+                    <ul class="site-navigation nav navbar-nav">
+                        <li>
+                            <a href="index.html" >Accueil</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <a href="page2.html">page2 &gt;</a>
+                        </li>
+                    </ul>
+                </div>
 			</div>
 		</nav>
 	</div>
