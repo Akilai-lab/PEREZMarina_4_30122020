@@ -206,6 +206,12 @@ button{
         border-radius: 25px;
         background-color: #F3976C;
     }
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+    }
+    .col-sm-12 {
+    width: 100%;
+    }
 }
 
 @media (min-width:1200px) {
