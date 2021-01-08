@@ -15,6 +15,9 @@ a:hover{
     text-decoration:none;
     cursor:pointer;
 }
+a.desactive {
+    cursor: not-allowed;
+}
 #page-loading-blocs-notifaction{
     position:fixed;
     top:0;
