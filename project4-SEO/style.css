@@ -830,6 +830,12 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.col-sm-4 {
+    background-color: #ffd0d09e;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 50%;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1055,5 +1061,14 @@ h4 {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, .2);
     float: none!important;
-}
+    }
+    .col-sm-4 {
+        max-width: inherit;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .col-sm-4 li {
+        list-style: none;
+    }
 }
