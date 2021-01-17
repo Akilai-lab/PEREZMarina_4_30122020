@@ -656,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -720,7 +720,6 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
 }
 
 .med-width-whitespace {
@@ -729,12 +728,8 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
+h1, h4, h3 {
+    color: #333333;
 }
 
 .icons {
@@ -903,6 +898,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .tc-white-second {
+        color: #fff;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
