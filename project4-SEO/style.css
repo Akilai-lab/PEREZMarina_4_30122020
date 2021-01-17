@@ -279,7 +279,9 @@ a:hover {
     margin-right: 0;
     margin-left: 0;
 }
-
+.row {
+    display: flex;
+}
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
@@ -705,7 +707,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+/*    max-width: 400px;*/
     margin: auto auto auto auto;
 }
 
@@ -921,7 +923,6 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
     .navbar.row {
@@ -1044,24 +1045,11 @@ h4 {
         width: 270px;
         margin: auto;
     }
-}
-
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
+    
+        .bloc-mob-center-text {
         text-align: center;
     }
-    .navbar .nav {
-    padding-top: 0;
-    border-top: 1px solid rgba(0, 0, 0, .2);
-    float: none!important;
-    }
+
     .col-sm-4 {
         max-width: inherit;
         margin: 0;
@@ -1070,5 +1058,12 @@ h4 {
     }
     .col-sm-4 li {
         list-style: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
