@@ -889,6 +889,51 @@ h1, h4, h3 {
         list-style: none;
         padding: 0;
     }
+    .navbar-brand img {
+    margin: 0 70px 0 0;
+    }
+    .tc-white-second {
+        color: #fff;
+    }
+    form#form_1 {
+        display: -webkit-inline-box;
+        flex-wrap: wrap;
+    }
+    .form-group {
+        margin: 20px 0;
+    }
+    label {
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .form-group br {
+        display: none;
+    }
+    textarea#message.form-control {
+        display: block;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine {
+        position: relative;
+        top: 45%;
+        left: 20%;
+        padding: 10px 20px;
+    }
+    .container.bloc-lg {
+        border: 1.5px double orange;
+        margin: 30px auto;
+    }
+    .col-sm-6 p {
+        width: 55%;
+        margin-left: 40px;
+    }
+    .col-sm-6 p br {
+        display: none;
+    }
+    .form-control {
+        border-color: #fbab579e;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
