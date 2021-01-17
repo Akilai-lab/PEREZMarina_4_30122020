@@ -991,6 +991,43 @@ h1, h4, h3 {
     .row.row-no-gutters > [class^="col-"], .row.row-no-gutters > [class*=" col-"] {
         margin: 3% 10%;
     }
+    h1.text-center.hero-bloc-text.tc-white-second {
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    p.text-center.mg-lg.tc-white-second.tight-width-whitespace {
+        color: beige;
+        margin: 0 30%;
+        font-size: 16px;
+        letter-spacing: 3px;
+        width: 100%;
+    }
+    .col-sm-6.map {
+        width: auto;
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .col-sm-6.map br:nth-child(0){
+        display: none;
+    }
+    form#form_1 {
+        max-width: 90%;
+        margin: 35px auto;
+    }
+    .form-group br {
+       display: none;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    label {
+        margin-right: 20px;
+    }
+    textarea#message.form-control {
+        max-width: 100%;
+        margin: 15px auto;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
