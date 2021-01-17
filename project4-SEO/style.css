@@ -938,6 +938,60 @@ h1, h4, h3 {
         text-decoration: none;
     }
 }
+@media (min-width:1024px) {
+    .container {
+        margin: 0;
+        max-width: inherit;
+    }
+    .cta-hero {
+        margin-left: 0;
+    }
+    .text-center a, li a {
+        text-decoration: none;
+    }
+    .med-width-whitespace {
+        max-width: inherit;
+        margin: 20px 0; 
+        box-shadow: 0px 0px 0px #000000;
+    }
+    .col-sm-4.icone {
+        background-color: white;
+    }
+    .black-background {
+        background-color: #ffffff00;
+        padding: inherit;
+    }
+    .tc-white {
+        color: #fff;
+        font-size: 1.5em;
+    }
+    .tight-width-whitespace {
+        max-width: 700px;
+    }
+    .tight-width-whitespace.portfolio-row {
+    max-width: 1000px;
+    }
+    .col-sm-6 {
+        margin: 10px 20px;
+    }
+    .col-sm-6 a {
+        width: 500px;
+        height: 500px;
+    }
+    .col-sm-6 a img{
+        width: 100%;
+    }
+    .portfolio-thumb {
+        margin-bottom: 0;
+    }
+    .row.rowContact {
+        display: flex;
+        flex-direction: column;
+    }
+    .row.row-no-gutters > [class^="col-"], .row.row-no-gutters > [class*=" col-"] {
+        margin: 3% 10%;
+    }
+}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
