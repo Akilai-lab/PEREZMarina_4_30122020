@@ -935,7 +935,6 @@ h1, h4, h3 {
         padding: 10px 20px;
     }
     .container.bloc-lg {
-        border: 1.5px double orange;
         margin: 30px auto;
     }
     #bloc-7 .container.bloc-lg {
@@ -945,6 +944,10 @@ h1, h4, h3 {
     .col-sm-6 p {
         width: 55%;
         margin-left: 40px;
+    }
+    #bloc-4-portfolio p.text-center {
+        width: auto;
+        margin-left: 0;
     }
     .col-sm-6.map p {
         margin-left: 0;
