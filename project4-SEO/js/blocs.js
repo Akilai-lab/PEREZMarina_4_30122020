@@ -188,6 +188,7 @@ function addLightBoxSwipeSupport() {
         threshold: 0
     })
 }
+
 $(document).ready(function() {
     $("#scroll-hero").click(function(t) {
         t.preventDefault(), $("html,body").animate({
