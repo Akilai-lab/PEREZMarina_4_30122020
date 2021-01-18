@@ -1021,7 +1021,7 @@ h1, h4, h3 {
     }
     p.text-center.mg-lg.tc-white-second.tight-width-whitespace {
         color: beige;
-        margin: 0 30%;
+        margin: 0 auto;
         font-size: 16px;
         letter-spacing: 3px;
         width: 100%;
