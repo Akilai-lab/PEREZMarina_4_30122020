@@ -1,8 +1,10 @@
-RedirectPermanent https://akilai-lab.github.io/PEREZMarina_4_30122020/project4-SEO/voiture.com
+RewriteEngine On
+
+Redirect 301 / https://akilai-lab.github.io/PEREZMarina_4_30122020/project4-SEO/index.html/voiture.com
 
 https://akilai-lab.github.io/PEREZMarina_4_30122020/project4-SEO/pageError.html
 
-RedirectPermanent https://akilai-lab.github.io/PEREZMarina_4_30122020/project4-SEO/page2.html/voiture.com
+Redirect 301 / https://akilai-lab.github.io/PEREZMarina_4_30122020/project4-SEO/page2.html/voiture.com
 
 https://akilai-lab.github.io/PEREZMarina_4_30122020/project4-SEO/pageError.html
 
