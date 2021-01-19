@@ -249,6 +249,13 @@ img {
         border-radius: 40px;
         padding: 20px;
     }
+    .popUp button {
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        line-height: 1.3333333;
+        border-radius: 40px;
+    }
     .collapse {
         display: none
     }
