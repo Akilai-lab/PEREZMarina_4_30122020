@@ -845,11 +845,11 @@ h1, h4, h3 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/imgCompression/la-chouette-agence-banniere-min.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/imgCompression/image-de-presentation-ps-min.jpg");
 }
 
 .col-sm-4 {
