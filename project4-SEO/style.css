@@ -1,6 +1,3 @@
-a.desactive {
-    cursor: not-allowed;
-}
 body {
     margin: 0;
     padding: 0;
@@ -19,6 +16,24 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+.popUp {
+    position: absolute;
+    left: 40%;
+    bottom: 15%;
+    background-color: #fff;
+    opacity: 85%;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.popUp button {
+    
 }
 
 #page-loading-blocs-notifaction {
@@ -784,7 +799,7 @@ h1, h4, h3 {
     color: #F3976C;
 }
 
-.btn-atomic-tangerine {
+.btn-atomic-tangerine, .popUp button {
     background: #F3976C;
     color: #FFFFFF;
     margin: 0;
@@ -792,6 +807,9 @@ h1, h4, h3 {
     border-radius: 0;
 }
 
+.popUp button a{
+    color: #fff;
+}
 .btn-atomic-tangerine:hover {
     background: #c27956;
     color: #FFFFFF;
@@ -839,6 +857,10 @@ h1, h4, h3 {
     margin: 0 auto;
     padding: 20px;
     max-width: 50%;
+}
+.connections.col-sm-4 {
+    position: relative;
+    order: 1;
 }
 @media (max-width: 1024px) {
     .bloc {
