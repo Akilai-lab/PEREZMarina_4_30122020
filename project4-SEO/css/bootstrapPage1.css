@@ -399,7 +399,7 @@ img {
     position: relative;
     display: block;
     padding: 10px 25px;
-    color: #fff!important;
+    color: #fff;
     font-weight: bold;
     text-transform: uppercase;
 }
