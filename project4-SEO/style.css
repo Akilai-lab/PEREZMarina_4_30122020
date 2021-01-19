@@ -249,7 +249,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: #fff;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -267,7 +267,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: #F3976C;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -811,7 +811,7 @@ h1, h4, h3 {
     color: #fff;
 }
 .btn-atomic-tangerine:hover {
-    background: #c27956;
+/*    background: #c27956;*/
     color: #FFFFFF;
 }
 
@@ -877,6 +877,11 @@ h1, h4, h3 {
 }
 
 @media (min-width: 767px) and (max-width: 1024px) {
+    h4 {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 500;
+    }
     .cta-hero {
         margin: inherit;
     }
@@ -911,6 +916,13 @@ h1, h4, h3 {
     }
     .connections {
         display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .connections .col-sm-4 {
+        margin: 0;
+        max-width: inherit;
+        width: 30%;
     }
     ol, ul {
         list-style: none;
@@ -983,8 +995,28 @@ h1, h4, h3 {
     .navbar-nav>li>a {
         text-decoration: none;
     }
+    .popUp {
+        left: 20%;
+        bottom: 35%;
+        width: 450px;
+        height: 320px;
+    }
 }
 @media (min-width:1024px) {
+    h4 {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+    }
+    .connections ul {
+        list-style: none;
+        padding: 0;
+    }
+    .connections li {
+        text-align: center;
+        margin-top: 10px;
+    }
     .container {
         margin: 0;
         max-width: inherit;
@@ -1298,13 +1330,21 @@ h1, h4, h3 {
     .bloc-mob-center-text {
         text-align: center;
     }
-
+    h4 {
+        padding-top: 20px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 500;
+    }
     .col-sm-4 {
         max-width: inherit;
         margin: 0;
         width: 100%;
         text-align: center;
         padding: inherit;
+    }
+    .col-sm-4 ul {
+        padding: 0;
     }
     .col-sm-4 li {
         list-style: none;
@@ -1317,6 +1357,9 @@ h1, h4, h3 {
     }
     .rowContact h2 {
         font-weight: 700;
+    }
+    .bloc-sm {
+        padding: 0;
     }
     .bloc-sm .social {
         display: -webkit-box;
@@ -1332,6 +1375,16 @@ h1, h4, h3 {
         max-width: none!important;
         margin: inherit!important;
         text-decoration: none!important;
+    }
+    .popUp {
+        left: 0;
+        bottom: 15%;
+        width: auto;
+        height: 300px;
+    }
+    .popUp button {
+        border-color: #F3976C;
+        background-color: #d04f12;
     }
 }
 
