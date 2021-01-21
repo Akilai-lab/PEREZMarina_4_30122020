@@ -1053,9 +1053,11 @@ h1, h4, h3 {
     .col-sm-6 a {
         width: 500px;
     }
+/*
     .col-sm-6 a img{
         width: 100%;
     }
+*/
     .portfolio-thumb {
         margin-bottom: 0;
     }
