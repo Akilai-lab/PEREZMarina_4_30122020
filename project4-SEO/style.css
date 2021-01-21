@@ -1199,6 +1199,7 @@ h1, h4, h3 {
     .navbar .nav {
         padding-top: 0;
         float: none!important;
+        margin-right: 0;
     }
     .navbar.row {
         margin-left: 0;
