@@ -903,8 +903,10 @@ h1, h2, h4, h3 {
         height: 600px;
     }
     .col-sm-6 a img {
-        margin-top: 30px;
-        width: 100%;
+        margin: 30px auto 0 auto;
+        width: 75%;
+        position: relative;
+        left: 14%;
     }
     .bloc-sm .social {
         display: -webkit-box;
@@ -936,35 +938,30 @@ h1, h2, h4, h3 {
         padding: 0;
     }
     form#form_1 {
-        display: -webkit-inline-box;
+        display: block;
         flex-wrap: wrap;
-        margin-top: 15px;
         background-color: bisque;
-        padding: 15px;
         border-top-left-radius: 15px;
         border-bottom-right-radius: 15px;
         border: 2.5px double #e29507;
+        width: 65%;
+        margin: 0 auto;
+        padding: 0px 20px;
     }
     .form-group {
         margin: 20px 0;
     }
     label {
-        margin-left: 40px;
         margin-right: 20px;
     }
+/*
     .form-group br {
         display: none;
     }
+*/
     textarea#message.form-control {
         display: block;
-        margin-left: 40px;
         margin-top: 20px;
-    }
-    button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine {
-        position: relative;
-        top: 45%;
-        left: 20%;
-        padding: 10px 20px;
     }
     .container.bloc-lg {
         margin: 30px auto;
@@ -1097,17 +1094,18 @@ h1, h2, h4, h3 {
         border-bottom-right-radius: 15px;
         border: 2.5px double #e29507;
     }
-    .form-group br {
-       display: none;
-    }
     .form-group {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     label {
         margin-right: 20px;
     }
+    input {
+        margin: 10px 0;
+        height: 30px;
+    }
     textarea#message.form-control {
-        margin: 15px auto;
+        margin: 15px 0;
         height: 120px;
         width: -webkit-fill-available;
     }
