@@ -198,6 +198,9 @@ img {
     .navbar-toggle {
         padding: 0;
     }
+    .nav > li {
+        margin: 0;
+    }
 }
 @media (min-width:768px) { 
     .text-center {
@@ -210,6 +213,9 @@ img {
     ul {
         margin-top: 0;
         margin-bottom: 10px
+    }
+    .nav > li {
+        margin: 0;
     }
     .container {
         padding-right: 15px;
