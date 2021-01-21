@@ -253,7 +253,10 @@ img {
         font-size: 18px;
         line-height: 1.3333333;
         border-radius: 40px;
-        padding: 20px;
+/*        padding: 20px;*/
+    }
+    form .btn-lg {
+        margin: 10px 0 20px 0;
     }
     .popUp button {
         border: none;
