@@ -97,8 +97,11 @@ img {
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
+}
+.img-responsive.portfolio-thumb {
+    display: initial;
 }
 .sr-only {
     position: absolute;
@@ -296,12 +299,15 @@ img {
     .navbar-nav>li>a {
         padding-top: 15px;
         padding-bottom: 15px;
-        border: 1px solid #F3976C;
+        border: 1px solid #fb6f2e;
         border-radius: 25px;
-        background-color: #F3976C;
+        background-color: #fb6f2e;
     }
     .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
     float: left;
+    }
+    .col-sm-3 {
+        float: none;
     }
     .col-sm-12 {
         float: inherit;
@@ -311,11 +317,13 @@ img {
     }
 }
 @media (min-width:768px) and (max-width:1024px) {
+/*
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
         display: block;
-        max-width: 100%;
+        width: 100%;
         height: auto;
     }
+*/
     .icone {
         background-color: #fff;
         max-width: 80%;
@@ -367,12 +375,14 @@ img {
     .col-xs-12 {
         width: 100%
     }
+/*
     .col-sm-6 {
         width: 50%
     }
+*/
     .col-sm-4 {
         width: 33.33333333%;
-        margin-left: 20px;
+/*        margin-left: 20px;*/
     }
 
     .col-sm-3 {
