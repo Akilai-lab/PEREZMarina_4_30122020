@@ -765,6 +765,8 @@ h1, h2, h4, h3 {
 
 .white {
     color: #FFFFFF!important;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .portfolio-thumb {
@@ -1352,7 +1354,8 @@ form .submit {
         padding-top: 20px;
         text-transform: uppercase;
         color: #fff;
-        font-weight: 500;
+        font-weight: bold;
+        letter-spacing: 1.5px;
     }
     .col-sm-4 {
         max-width: inherit;
