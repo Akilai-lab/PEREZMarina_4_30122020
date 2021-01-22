@@ -767,6 +767,7 @@ h1, h2, h4, h3 {
     color: #FFFFFF!important;
     font-weight: bold;
     font-size: 1.2em;
+    text-transform: uppercase;
 }
 
 .portfolio-thumb {
@@ -1019,6 +1020,8 @@ form .submit {
         text-transform: uppercase;
         font-weight: 700;
         text-align: center;
+        color: #ff5200;
+        font-size: larger;
     }
     .connections ul {
         list-style: none;
@@ -1398,7 +1401,7 @@ form .submit {
         text-decoration: none!important;
     }
     .popUp {
-        left: 0;
+        left: 20%;
         bottom: 15%;
         width: auto;
         height: 300px;
