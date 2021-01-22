@@ -120,9 +120,11 @@ img {
     text-align: center;
 }
 
+/*
 .navbar-collapse.in {
     overflow-y: auto;
 }
+*/
 @media print {
     
     * {
@@ -412,7 +414,7 @@ img {
 .nav>li {
     position: relative;
     display: block;
-    margin: 0 10px
+    margin: 10px 10px 0 10px;
 }
 .nav>li>a {
     position: relative;
