@@ -672,6 +672,9 @@ a {
     font-weight: 400;
     color: #575757;
 }
+a.connection {
+    font-weight: 700;
+}
 label {
     font-weight: 700;
 }
@@ -730,6 +733,7 @@ p {
 
 .social {
 /*    max-width: 400px;*/
+    display: flex;
     margin: auto auto auto auto;
 }
 
@@ -795,7 +799,7 @@ h1, h2, h4, h3 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #fb6f2e;
 }
 
 .tc-white {
@@ -803,7 +807,7 @@ h1, h2, h4, h3 {
 }
 
 .btn-atomic-tangerine, .popUp button {
-    background: #F3976C;
+    background: #fb6f2e;
     color: #FFFFFF;
     margin: 0;
     padding: 12px;
@@ -862,7 +866,7 @@ form .submit {
 }
 
 .col-sm-4 {
-    background-color: #ffd0d09e;
+    background-color: #ffffffb3;
     margin: 0 auto;
     padding: 20px;
     max-width: 50%;
@@ -1011,8 +1015,7 @@ form .submit {
 @media (min-width:1024px) {
     h4 {
         text-transform: uppercase;
-        color: #fff;
-        font-weight: 500;
+        font-weight: 700;
         text-align: center;
     }
     .connections ul {
@@ -1054,20 +1057,17 @@ form .submit {
     }
     .tight-width-whitespace.portfolio-row {
     max-width: 1000px;
+        display: flex;
     }
     .col-sm-6 {
         margin: 10px 20px;
     }
-/*
     .col-sm-6 a {
         width: 500px;
     }
-*/
-/*
     .col-sm-6 a img{
         width: 100%;
     }
-*/
     .portfolio-thumb {
         margin-bottom: 0;
     }
@@ -1121,6 +1121,9 @@ form .submit {
         margin: 15px 0;
         height: 120px;
         width: -webkit-fill-available;
+    }
+    footer a.connection {
+        font-weight: 700!important;
     }
 }
 
