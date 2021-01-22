@@ -724,7 +724,7 @@ p {
 .cta-hero {
     margin-top: 22px;
     margin-left: 45%;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 6px 20px;
     font-size: 14px;
@@ -807,8 +807,8 @@ h1, h2, h4, h3 {
 }
 
 .btn-atomic-tangerine, .popUp button {
-    background: #fb6f2e;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    color: black;
     margin: 0;
     padding: 12px;
     border-radius: 0;
@@ -1207,7 +1207,7 @@ form .submit {
     }
     .text-center a {
         display: block;
-        max-width: 40%;
+        max-width: 25%;
         margin: 20px auto;
     }
     .col-sm-12 h1{
