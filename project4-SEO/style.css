@@ -1169,6 +1169,9 @@ form .submit {
 }
 
 @media (max-width: 767px) {
+    .l-bloc .navbar a {
+        color: #fd7515;
+    }
     .form-group {
         max-width: 80%;
         margin-bottom: 10px;
@@ -1216,7 +1219,7 @@ form .submit {
     }
     .navbar .nav {
         padding-top: 0;
-        float: none!important;
+        float: right;
         margin-right: 0;
     }
     .navbar.row {
