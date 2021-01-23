@@ -107,7 +107,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paperComp.png");
     background-size: 280px 280px;
 }
 
@@ -321,9 +321,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 240%;
     margin: 0 5px 0 0;
     display: inline;
+    width: 100%;
 }
 
 .navbar-brand img[src$=svg] {
@@ -1050,7 +1051,7 @@ form .submit {
         background-color: white;
     }
     .black-background {
-        background-color: #ffffff00;
+        background-color: #58575782;
         padding: inherit;
     }
     .tc-white {
