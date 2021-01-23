@@ -761,7 +761,7 @@ h1, h2, h4, h3 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #400 !important;
     font-weight: bold;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -1033,7 +1033,7 @@ form .submit {
         width: 100%;
         text-align: center;
         text-transform: uppercase;
-        color: #fff;
+        color: #000;
         font-weight: bold;
         font-size: 19px;
     }
