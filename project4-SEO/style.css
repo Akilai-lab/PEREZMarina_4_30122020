@@ -309,7 +309,7 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+/*    padding: 3px 15px;*/
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -317,10 +317,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    height: 240%;
+    width: 50%;
+    height: 150px;
     margin: 0 5px 0 0;
     display: inline;
-    width: 100%;
 }
 
 .navbar-brand img[src$=svg] {
