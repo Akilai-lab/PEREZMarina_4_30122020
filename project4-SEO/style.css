@@ -806,9 +806,16 @@ h1, h2, h4, h3 {
     color: #F3976C;
 }
 
-.btn-atomic-tangerine, .popUp .button {
+.btn-atomic-tangerine {
     background: #FFFFFF;
     color: black;
+    margin: 0;
+    padding: 12px;
+    border-radius: 0;
+}
+.popUp .button {
+    background: #f1621f;
+    color: #fff;
     margin: 0;
     padding: 12px;
     border-radius: 0;
