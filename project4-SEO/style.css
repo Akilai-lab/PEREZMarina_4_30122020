@@ -831,9 +831,7 @@ form .submit {
     display: flex;
     flex-wrap: wrap;
 }
-.liens h4 {
-    
-}
+
 .popUp button a{
     color: #fff;
 }
@@ -904,7 +902,7 @@ form .submit {
 }
 
 @media (min-width: 767px) and (max-width: 1024px) {
-    .liens h4 {
+    .liens h3 {
         width: 100%;
         text-align: center;
         text-transform: uppercase;
@@ -1029,7 +1027,7 @@ form .submit {
     }
 }
 @media (min-width:1024px) {
-    .liens h4 {
+    .liens h3 {
         width: 100%;
         text-align: center;
         text-transform: uppercase;
@@ -1228,7 +1226,7 @@ form .submit {
     h3 {
         font-size: 1.2em;
     }
-    .liens h4 {
+    .liens h3 {
         width: 100%;
         text-align: center;
         text-transform: uppercase;
@@ -1379,7 +1377,7 @@ form .submit {
     .bloc-mob-center-text {
         text-align: center;
     }
-    .liens h4 {
+    .liens h3 {
         padding-top: 20px;
         text-transform: uppercase;
         color: #fff;
