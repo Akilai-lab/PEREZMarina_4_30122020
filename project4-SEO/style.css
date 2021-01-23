@@ -32,10 +32,6 @@ a:hover {
     align-items: center;
     flex-direction: column;
 }
-.popUp button {
-    
-}
-
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -810,7 +806,7 @@ h1, h2, h4, h3 {
     color: #F3976C;
 }
 
-.btn-atomic-tangerine, .popUp button {
+.btn-atomic-tangerine, .popUp .button {
     background: #FFFFFF;
     color: black;
     margin: 0;
