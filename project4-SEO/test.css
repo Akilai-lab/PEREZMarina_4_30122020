@@ -702,7 +702,7 @@ label a {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+/*    max-width: 600px;*/
     margin: auto auto auto auto;
 }
 
@@ -731,7 +731,9 @@ h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
-
+h3.mg-md.text-center.tc-white {
+    width: fit-content;
+}
 h2 {
     font-size: 15px;
     text-transform: uppercase;
@@ -920,13 +922,12 @@ form .submit {
         color: #fff;
     }
     .col-sm-6 a {
-        width: 600px;
+/*        width: 600px;*/
         height: 600px;
     }
     .col-sm-6 a img {
         margin: 30px auto 0 auto;
         width: 75%;
-        position: relative;
         left: 14%;
     }
     .bloc-sm .social {
@@ -983,9 +984,11 @@ form .submit {
         display: block;
         margin-top: 20px;
     }
+/*
     .container.bloc-lg {
         margin: 30px auto;
     }
+*/
     #bloc-7 .container.bloc-lg {
         border: none;
         margin: 0;
@@ -1060,16 +1063,20 @@ form .submit {
         color: #fff;
         font-size: 1.5em;
     }
+/*
     .tight-width-whitespace {
         max-width: 700px;
     }
+*/
     .tight-width-whitespace.portfolio-row {
     max-width: 1000px;
         display: flex;
     }
+/*
     .col-sm-6 {
         margin: 10px 20px;
     }
+*/
     .col-sm-6 a {
         width: 500px;
     }
@@ -1218,7 +1225,7 @@ form .submit {
     }
     .text-center a {
         display: block;
-        max-width: 25%;
+        width: 50%;
         margin: 20px auto;
     }
     .col-sm-12 h1{
@@ -1280,7 +1287,7 @@ form .submit {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        height: 100%;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -1398,13 +1405,14 @@ form .submit {
     }
     .bold-link {
         max-width: none!important;
-        margin: inherit!important;
+        margin: inherit;
         text-decoration: none!important;
     }
     .popUp {
-        left: 20%;
+        margin: auto;
+        left: 0%;
         bottom: 15%;
-        width: auto;
+        width: 100%;
         height: 300px;
     }
     .popUp button {
