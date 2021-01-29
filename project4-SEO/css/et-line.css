@@ -1,5 +1,6 @@
 @font-face {
     font-family: et-line;
+    display-font:swap;
     src: url(../fonts/et-line.eot);
     src: url(../fonts/et-line.eot?#iefix) format('embedded-opentype'), url(../fonts/et-line.woff) format('woff'), url(../fonts/et-line.ttf) format('truetype'), url(../fonts/et-line.svg#et-line) format('svg');
     font-weight: 400;
@@ -107,6 +108,7 @@
 .et-icon-wallet,
 .et-icon-wine {
     font-family: et-line;
+    display-font:swap;
     speak: none;
     font-style: normal;
     font-weight: 400;
