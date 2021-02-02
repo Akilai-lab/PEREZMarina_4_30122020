@@ -21,9 +21,9 @@ a:hover {
 .popUp {
     position: absolute;
     left: 40%;
-    bottom: 15%;
+    bottom: 30%;
     background-color: #fff;
-    opacity: 85%;
+    opacity: inherit;
     padding: 20px;
     width: 400px;
     height: 300px;
@@ -33,6 +33,7 @@ a:hover {
     align-items: center;
     flex-direction: column;
 }
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -1414,6 +1415,7 @@ form .submit {
         bottom: 15%;
         width: 100%;
         height: 300px;
+        opacity: inherit;
     }
     .popUp button {
         border-color: #F3976C;
