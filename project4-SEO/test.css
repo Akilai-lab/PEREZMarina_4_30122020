@@ -1405,7 +1405,9 @@ form .submit {
         padding: 0;
     }
     .bloc-sm .social {
-        display: -webkit-box;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
     }
     .bloc-sm .social .col-sm-3 {
         margin: 0 8%;
