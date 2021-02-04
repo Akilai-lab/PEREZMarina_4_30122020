@@ -340,7 +340,7 @@ img {
         float: unset;
     }
     img {
-    max-width: 70%;
+    max-width: 60%;
     }
 }
 @media (min-width:1200px) {
