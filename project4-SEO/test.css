@@ -762,7 +762,9 @@ h1, h2, h4, h3 {
     font-size: 1.2em;
     text-transform: uppercase;
 }
-
+p.text-center.white {
+    text-transform: inherit;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -881,6 +883,9 @@ form .submit {
 .connections.col-sm-4 {
     position: relative;
     order: 1;
+}
+.blocForm {
+    display: flex;
 }
 @media (max-width: 1024px) {
     .bloc {
@@ -1002,8 +1007,12 @@ form .submit {
         width: auto;
         margin-left: 0;
     }
+    .col-sm-6.map {
+        text-align: center;
+    }
     .col-sm-6.map p {
         margin-left: 0;
+        width: auto;
     }
     .col-sm-6 p br {
         display: none;
@@ -1114,6 +1123,7 @@ form .submit {
         display: none;
     }
     form#form_1 {
+        width: 85%;
         margin-top: 15px;
         background-color: bisque;
         padding: 30px;
@@ -1353,7 +1363,7 @@ form .submit {
         max-width: -webkit-fill-available;
     }
     .col-sm-6 a {
-        width: 270px;
+        width: 50%;
         margin: auto;
     }
     .col-sm-6.map a img {
