@@ -676,7 +676,7 @@ label {
     font-weight: 700;
 }
 label a {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.87);
     font-weight: 700;
     text-decoration: underline;
 }
@@ -757,13 +757,16 @@ h1, h2, h4, h3 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: 1.2em;
     text-transform: uppercase;
 }
 p.text-center.white {
     text-transform: inherit;
+}
+.col-sm-12 p.text-center.white {
+    color: #150E0E !important;
 }
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -820,7 +823,7 @@ p.text-center.white {
 }
 form .submit {
     background: #F3976C;
-    color: #FFFFFF;
+    color: #150505;
     padding: 12px;
     border-radius: 0;
 }
